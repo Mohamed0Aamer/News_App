@@ -4,9 +4,9 @@ import 'package:newsapp/api/api.dart';
 import 'package:newsapp/model/Sources_respons.dart';
 
 Future<void> main() async {
-  Api api = Api();
-  SourcesRespons sourcesRespons = await api.getSource();
-  print(sourcesRespons.sources!.length);
+  //Api api = Api();
+  //SourcesRespons sourcesRespons = await api.getSource();
+  //print(sourcesRespons.sources!.length);
   runApp(const NewsApp());
 }
 
